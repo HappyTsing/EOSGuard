@@ -1,0 +1,12 @@
+{
+    "fuzzers":[
+        {
+            "vulnerability":"Rollback",
+            "arg_driver":"afl",
+            "iteration":10
+        }
+
+    ],
+    "output_file":"./result/test_result.json",
+    "smart_contract_dir":"/root/EOSFuzzer/dataset/contracts"
+}

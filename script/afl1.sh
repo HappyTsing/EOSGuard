@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+/root/AFL/afl-fuzz1 -i /root/EOSGuard/fuzz/interface1/in_dir -o /root/EOSGuard/fuzz/interface1/out_dir -t 1000000 -l $1 /root/EOSGuard/fuzz/interface1/interface @@  >> ./log/afl1.log 2>&1 &

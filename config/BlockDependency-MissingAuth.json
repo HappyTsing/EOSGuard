@@ -1,0 +1,13 @@
+{
+    "fuzzers":[
+        {
+            "vulnerability":"BlockDependency-MissingAuth",
+            "arg_driver":"local",
+            "limit_iteration":100
+        }
+    ],
+    "has_breakpoint":true,
+    "start_from":"./result/BlockDependency-MissingAuth-xblock.json",
+    "output_file":"./result/BlockDependency-MissingAuth.json",
+    "smart_contract_dir":"/root/EOSFuzzer/dataset/contracts"
+}

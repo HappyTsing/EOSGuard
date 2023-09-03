@@ -1,0 +1,8 @@
+venv
+/result
+target
+log
+dump.rdb
+fuzz/interface1/out_dir
+fuzz/interface2/out_dir
+.DS_Store
