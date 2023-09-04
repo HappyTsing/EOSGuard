@@ -1,12 +1,11 @@
 {
     "fuzzers":[
         {
-            "vulnerability":"Rollback",
+            "vulnerability":"ForgedNotification",
             "arg_driver":"afl",
-            "iteration":10
+            "limit_iteration":100
         }
-
     ],
-    "output_file":"./result/test_result.json",
+    "output_file":"./result/ForgedNotification.json",
     "smart_contract_dir":"/root/EOSFuzzer/dataset/contracts"
 }

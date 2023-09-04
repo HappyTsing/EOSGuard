@@ -1,0 +1,36 @@
+{
+    "fuzzers":[
+        {
+            "vulnerability":"BlockDependency-MissingAuth",
+            "arg_driver":"local",
+            "iteration":10
+        },
+        {
+            "vulnerability":"FakeEOSTransfer",
+            "arg_driver":"local",
+            "iteration":10
+        },
+        {
+            "vulnerability":"ForgedNotification",
+            "arg_driver":"local",
+            "iteration":10
+        },
+        {
+            "vulnerability":"HackRecipient",
+            "arg_driver":"local",
+            "iteration":10
+        },
+        {
+            "vulnerability":"MissingAuth",
+            "arg_driver":"local",
+            "iteration":10
+        },
+        {
+            "vulnerability":"Rollback",
+            "arg_driver":"local",
+            "iteration":10
+        }
+    ],
+    "output_file":"./result/TestAllLocal.json",
+    "smart_contract_dir":"/root/EOSFuzzer/dataset/contracts"
+}

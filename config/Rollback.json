@@ -1,11 +1,11 @@
 {
     "fuzzers":[
         {
-            "vulnerability":"BlockDependency-MissingAuth",
+            "vulnerability":"Rollback",
             "arg_driver":"afl",
             "limit_iteration":100
         }
     ],
-    "output_file":"./result/BlockDependency-MissingAuth.json",
+    "output_file":"./result/Rollback.json",
     "smart_contract_dir":"/root/EOSFuzzer/dataset/contracts"
 }
