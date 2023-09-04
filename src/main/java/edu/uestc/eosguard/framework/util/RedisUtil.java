@@ -70,8 +70,7 @@ public class RedisUtil {
         String key = String.format(CUR_INPUT_FILEPATH_KEY, id);
         try {
             Jedis jedis = new Jedis();
-            long queueLength = jedis.llen(key); 
-            
+            // long queueLength = jedis.llen(key); 
             // System.out.println("start wait here，redis queen len: "+queueLength);
             jedis.brpop(1, key);
             // System.out.println("end wait here");
