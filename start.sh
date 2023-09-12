@@ -22,4 +22,5 @@ check_and_make_executable "./fuzz/interface1/interface"
 check_and_make_executable "./fuzz/interface2/interface"
 mvn clean
 mvn compile
-mvn -e exec:java -Dexec.mainClass="edu.uestc.eosguard.Main" -Dexec.args="-fuzzingConfigFile ./config/TestAllAFL.json"
+mvn -e exec:java -Dexec.mainClass="edu.uestc.eosguard.Main" -Dexec.args="-fuzzingConfigFile $1"
+# mvn -e exec:java -Dexec.mainClass="edu.uestc.eosguard.Main" -Dexec.args="-fuzzingConfigFile ./config/TestAllAFL.json"

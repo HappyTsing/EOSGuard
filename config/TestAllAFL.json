@@ -3,34 +3,34 @@
         {
             "vulnerability":"BlockDependency-MissingAuth",
             "arg_driver":"afl",
-            "iteration":10
+            "iteration":100
         },
         {
             "vulnerability":"FakeEOSTransfer",
             "arg_driver":"afl",
-            "iteration":10
+            "iteration":100
         },
         {
             "vulnerability":"ForgedNotification",
             "arg_driver":"afl",
-            "iteration":10
+            "iteration":100
         },
         {
             "vulnerability":"HackRecipient",
             "arg_driver":"afl",
-            "iteration":10
+            "iteration":100
         },
         {
             "vulnerability":"MissingAuth",
             "arg_driver":"afl",
-            "iteration":10
+            "iteration":100
         },
         {
             "vulnerability":"Rollback",
             "arg_driver":"afl",
-            "iteration":10
+            "iteration":100
         }
     ],
     "output_file":"./result/TestAllAFL.json",
-    "smart_contract_dir":"/root/EOSFuzzer/dataset/contracts"
+    "smart_contract_dir":"/root/EOSGuard/TestCases"
 }
